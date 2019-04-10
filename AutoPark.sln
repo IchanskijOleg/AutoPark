@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPark", "AutoPark\AutoPark.csproj", "{EE40EA82-4078-47E3-8114-4BAF2200BFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoParkTree", "AutoParkTree\AutoParkTree.csproj", "{0812C05A-8356-4CF2-A177-0F3AE3AB7484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE40EA82-4078-47E3-8114-4BAF2200BFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE40EA82-4078-47E3-8114-4BAF2200BFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE40EA82-4078-47E3-8114-4BAF2200BFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE40EA82-4078-47E3-8114-4BAF2200BFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0812C05A-8356-4CF2-A177-0F3AE3AB7484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0812C05A-8356-4CF2-A177-0F3AE3AB7484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0812C05A-8356-4CF2-A177-0F3AE3AB7484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0812C05A-8356-4CF2-A177-0F3AE3AB7484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
