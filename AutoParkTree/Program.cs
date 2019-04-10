@@ -19,14 +19,18 @@ namespace AutoParkTree
             park.Insert(new Bus(6, "Gasya", 113));
             park.Insert(new Bus(7, "Zasya", 116));
 
-            Node found = park.Find(112);
+            int rout = 112;
+
+            park.Delete(rout);
+
+            Node found = park.Find(rout);
             if (found != null)
             {
-                Console.WriteLine("Маршрут знайдений");
+                Console.WriteLine("Маршрут {0} знайдений : {1}", rout, found.Data.ToString());
             }
             else
             {
-                Console.WriteLine("Маршрут не знайдений");
+                Console.WriteLine("Маршрут {0} не знайдений", rout);
             }
             park.Print();
 
